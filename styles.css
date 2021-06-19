@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#first{
+    min-height: 100vh;
+    background: #f2674d;
+}
+#second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#f-body{
+    width: 85%;
+    position: relative;
+    font-weight: 400;
+    max-width: 1440px;
+    margin-top: -80vh;
+    margin-bottom: 20vh;
+    background: #f7f7f7;
+    box-shadow: 3px 3px 10px rgba(151, 150, 150, 0.6);
+}
+
+h2, h3, h4{
+    padding: 20px 0;
+    color: rgba(0, 0, 0, 0.856);
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    color: #2a2a2a;
+    font-family: "Mulish", sans-serif;
+}
+small{
+    color: #f2674d;
+}
+.padd{
+    padding: 7% 15%;
+}
+.pad{
+    padding: 10% 0;
+}
+.mar{
+    margin: 10% 0;
+}
+
+.wave-top{
+    opacity: 0.15;
+    position: absolute;
+    top: -10%;
+}
+
+.circle-01{
+    position: absolute;
+    width:10%;
+    top: 25%;
+    left: -3%;
+}
+
+.circle-02{
+    position: absolute;
+    width: 5%;
+    top: 50%;
+    right: 3%;
+}
+
+/* navbar */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    font-family: "Raleway", sans-serif;
+}
+
+.nav__links, a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.856);
+    z-index: 1;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nav__links li a, .nav__links li .ab{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.nav__links li a:hover, .nav__links li .ab:hover{
+    color: #f2674d;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+/* cta section */
+
+#cta{
+    display: flex;
+}
+.cta{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.cta-img{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.cta-img img{
+    width: 80%;
+}
+
+.client{
+    background: hsla(204, 84%, 66%, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.client img{
+    width: 100px;
+    padding: 0 40px;
+}
+
+.wrk-01, .wrk-02{
+    display: flex;
+}
+.head{
+    flex: 1;
+}
+.blank{
+    flex: 1.5;
+}
+
+.wrk-02{
+    justify-content: space-between;
+}
+
+.wrk-item{
+    padding: 10px;
+}
+.wrk-item .fa-3x{
+    color:#f2674d;
+}
+.wrk-item h4{
+    padding: 20px 0;
+}
+
+button{
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #f2674d;
+    color: #f7f7f7;
+    border-radius: 50px;
+}
+
+.approch{
+    flex: 1;
+}
+.approch img{
+    width: 80%;
+}
+.approch-text{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.start{
+    width: 70%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#service{
+    display: flex;
+}
+.service-text{
+    display: flex;
+    align-items: center;
+}
+.content{
+    width:70%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.card{
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(151, 150, 150, 0.7);
+}
+
+  .card img{
+    width: 50%;
+  }
+  .move{
+      margin-left: 30px;
+  }
+
+  .feature-inner{
+    display: flex;
+    padding: 10px 0;
+    background: rgba(242, 102, 77, 0.214);
+  }
+  .feature-box{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    border-right: 1px solid #9e9e9e;
+  }
+  .feature-box:nth-child(4){
+    border-right:none;
+  }
+  .feature-box h2{
+    font-size:16px;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    color: rgba(0, 0, 0, 0.856);
+  }
+  .feature-box p{
+    color: rgb(39, 39, 39);
+  }
+  .feature-box img{
+    width: 50px;
+  }
+  #wrk-together{
+      display: flex;
+      background: #6a5571;
+      padding: 0 15%;
+      margin-top: 7%;
+      position: relative;
+  }
+ .wave-01{
+        position: absolute;
+        left: 0;
+        opacity: 0.2;
+        bottom: 0;
+  }
+  .wrk-together-01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+  }
+  .wrk-together-01 h2,.wrk-together-01 p{
+      color:#fff;
+  }
+  .wrk-together-02{
+      z-index: 1;
+  }
+  .wrk-together-02 img{
+      margin-top: -30px;
+      width: 300px;
+      flex: 1;
+  }
+  .margin{
+      height: 10px;
+      background: #f2674d;
+  }
+
+  footer{
+    display: flex;
+  }
+  .logo{
+    flex:1;
+  }
+  .usefull-links{
+    flex: 1;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+  }
+  .usefull-links h3, .logo h1{
+    color: #f2674d;
+  }
+  .icon{
+    float: right;
+  }
+  .icon .ic{
+      padding: 10px;
+      color: #f2674d;
+      cursor: pointer;
+  }
+
+
+  /* media queries */
+
+  @media only screen and (max-width: 767px) {
+    .padd{
+        padding: 3% 7%;
+    }
+
+    .nav__links li{
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .toggle-button{
+        display: block;
+    }
+
+    .nav__links{
+        display: none;
+    }
+    .nav__links.active{
+        display: block;
+    }
+
+    #cta{
+        display: block;
+    }
+    .start{
+        width: 50%;
+    }
+    .client{
+        background: hsla(204, 84%, 66%, 0.1);
+        padding: 20px;
+        text-align: center;
+    }
+    .client img{
+        width: 50px;
+        padding: 0 40px;
+    }
+    .wrk-01, .wrk-02, #service, .feature-inner,#wrk-together, footer, nav, .nav__links li{
+        display: block;
+    }
+    .cards{
+        margin: 20px 0;
+    }
+    .move{
+        margin: 0px;
+    }
+    .content{
+        width:100%;
+    }
+    .feature-box{
+        max-width: 100%;
+        padding: 20px 10px;
+    }
+    .wave-01, .wave-top{
+        display: none;
+    }
+    .wrk-together-02 img{
+        margin-top: 0px;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 374px){
+    #f-body{
+        width: 95%;
+        margin-top: -95vh;
+    }
+    .cards, .usefull-links{
+        grid-template-columns: auto;
+    }
+    .card{
+        margin: auto;
+    }
+    .use-link{
+        text-align: center;
+    }
+    .icon{
+        float: none;
+        text-align: center;
+      }
+  }

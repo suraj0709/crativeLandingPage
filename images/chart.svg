@@ -1,0 +1,38 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" fill="#cfcfd9" y="47" x="4" width="6" height="14"/>
+  <rect id="svg_2" fill="#cfcfd9" y="41" x="14" width="6" height="20"/>
+  <rect id="svg_3" fill="#cfcfd9" y="35" x="24" width="6" height="26"/>
+  <rect id="svg_4" fill="#cfcfd9" y="31" x="34" width="6" height="30"/>
+  <rect id="svg_5" fill="#cfcfd9" y="26" x="44" width="6" height="35"/>
+  <rect id="svg_6" fill="#cfcfd9" y="19" x="54" width="6" height="42"/>
+  <rect id="svg_7" fill="#d9dae2" y="19" x="54" width="4" height="40"/>
+  <rect id="svg_8" fill="#eda295" y="26" x="44" width="4" height="33"/>
+  <rect id="svg_9" fill="#d9dae2" y="31" x="34" width="4" height="28"/>
+  <rect id="svg_10" fill="#eda295" y="35" x="24" width="4" height="24"/>
+  <rect id="svg_11" fill="#d9dae2" y="41" x="14" width="4" height="18"/>
+  <rect stroke-opacity="0" id="svg_12" fill="#eda295" y="47" x="4" width="4" height="12"/>
+  <polygon id="svg_13" fill="#eda295" points="53 3 54.314 5.663 57.253 6.09 55.127 8.163 55.629 11.09 53 9.708 50.371 11.09 50.873 8.163 48.747 6.09 51.686 5.663 53 3"/>
+  <polygon id="svg_14" fill="#ef2c09" points="38 11 41 14 34 21 21 21 6 36 9 39 23 25 36 25 44 17 47 20 47 11 38 11"/>
+  <path id="svg_15" fill="#f2674d" d="m41,14l-7,7l-13,0l-15,15l3,3l14,-14l13,0l5,-5a4.242,4.242 0 0 0 0,-6z"/>
+  <polygon id="svg_16" fill="#fff" points="5 52 5 48 9 48 5 52"/>
+  <polygon id="svg_17" fill="#fff" points="15 46 15 42 19 42 15 46"/>
+  <polygon id="svg_18" fill="#fff" points="25 40 25 36 29 36 25 40"/>
+  <polygon id="svg_19" fill="#fff" points="35 36 35 32 39 32 35 36"/>
+  <polygon id="svg_20" fill="#fff" points="45 31 45 27 49 27 45 31"/>
+  <polygon id="svg_21" fill="#fff" points="55 24 55 20 59 20 55 24"/>
+  <path id="svg_22" d="m10,62l-6,0a1,1 0 0 1 -1,-1l0,-14a1,1 0 0 1 1,-1l6,0a1,1 0 0 1 1,1l0,14a1,1 0 0 1 -1,1zm-5,-2l4,0l0,-12l-4,0l0,12z"/>
+  <path id="svg_23" d="m20,62l-6,0a1,1 0 0 1 -1,-1l0,-20a1,1 0 0 1 1,-1l6,0a1,1 0 0 1 1,1l0,20a1,1 0 0 1 -1,1zm-5,-2l4,0l0,-18l-4,0l0,18z"/>
+  <path id="svg_24" d="m30,62l-6,0a1,1 0 0 1 -1,-1l0,-26a1,1 0 0 1 1,-1l6,0a1,1 0 0 1 1,1l0,26a1,1 0 0 1 -1,1zm-5,-2l4,0l0,-24l-4,0l0,24z"/>
+  <path id="svg_25" d="m40,62l-6,0a1,1 0 0 1 -1,-1l0,-30a1,1 0 0 1 1,-1l6,0a1,1 0 0 1 1,1l0,30a1,1 0 0 1 -1,1zm-5,-2l4,0l0,-28l-4,0l0,28z"/>
+  <path id="svg_26" d="m50,62l-6,0a1,1 0 0 1 -1,-1l0,-35a1,1 0 0 1 1,-1l6,0a1,1 0 0 1 1,1l0,35a1,1 0 0 1 -1,1zm-5,-2l4,0l0,-33l-4,0l0,33z"/>
+  <path id="svg_27" d="m60,62l-6,0a1,1 0 0 1 -1,-1l0,-42a1,1 0 0 1 1,-1l6,0a1,1 0 0 1 1,1l0,42a1,1 0 0 1 -1,1zm-5,-2l4,0l0,-40l-4,0l0,40z"/>
+  <path id="svg_28" d="m55.629,12.09a1.015,1.015 0 0 1 -0.466,-0.114l-2.163,-1.138l-2.163,1.138a1,1 0 0 1 -1.451,-1.055l0.414,-2.409l-1.75,-1.706a1,1 0 0 1 0.55,-1.706l2.417,-0.352l1.083,-2.19a1.04,1.04 0 0 1 1.792,0l1.083,2.191l2.425,0.351a1,1 0 0 1 0.555,1.705l-1.755,1.707l0.413,2.409a1,1 0 0 1 -0.985,1.169l0.001,0zm-2.629,-3.382a1,1 0 0 1 0.466,0.115l0.835,0.439l-0.159,-0.93a1,1 0 0 1 0.287,-0.885l0.675,-0.658l-0.933,-0.136a1,1 0 0 1 -0.753,-0.548l-0.418,-0.846l-0.418,0.846a1,1 0 0 1 -0.753,0.548l-0.933,0.136l0.675,0.658a1,1 0 0 1 0.287,0.885l-0.159,0.93l0.835,-0.439a1,1 0 0 1 0.466,-0.115z"/>
+ </g>
+</svg>
